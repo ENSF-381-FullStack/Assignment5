@@ -1,0 +1,50 @@
+.reg-form{
+    form {
+        background-color: #d4d4d4;
+        text-align: center;
+        padding: 30px;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-radius: 30px;
+        box-shadow: 0 0 10px 0 #3f3838;
+        input[type="text"],input[type="email"],input[type="password"] {
+            padding: 10px;
+            border: 3px solid #cccccc46;
+            border-radius: 5px;
+            width: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+        label {
+            display: block;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+    }
+  }
+
+.signup-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  opacity: 0.5;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #45A049; /* Darker green */
+  opacity: 1.0;
+}
+
+.form-validation{
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  width: 75%;
+  padding: 20px;
+  margin: 20px;
+  margin: 0 auto;
+}
